@@ -1,0 +1,6 @@
+if SHIELD_NICENUMP
+
+config ZMK_KEYBOARD_NAME
+    default "niceNump"
+
+endif
