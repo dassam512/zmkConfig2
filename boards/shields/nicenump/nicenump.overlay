@@ -46,6 +46,7 @@ RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4)
 
     chosen {
         zmk,kphysical-layout = &default_layout;
+	zephyr,display = &oled;
     };
 
 };
