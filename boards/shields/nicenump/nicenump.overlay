@@ -52,15 +52,15 @@ RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4)
 
 &i2c0_default {
         group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 1, 7)>,  // P1.07 (pin 107)
-                    <NRF_PSEL(TWIM_SCL, 1, 2)>;  // P1.02 (pin 102)
+            psels = <NRF_PSEL(TWIM_SDA, 1, 6)>,  
+                    <NRF_PSEL(TWIM_SCL, 1, 8)>;  
         };
     };
 
 &i2c0_sleep {
         group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 1, 7)>,  // P1.07 (pin 107)
-                    <NRF_PSEL(TWIM_SCL, 1, 2)>;  // P1.02 (pin 102)
+            psels = <NRF_PSEL(TWIM_SDA, 1, 6)>,  
+                    <NRF_PSEL(TWIM_SCL, 1, 8)>;  
             low-power-enable;
         };
     };
